@@ -55,7 +55,7 @@ const RichTextEditor: React.FC = () => {
   return (
     <Container maxWidth="sm">
       <Typography variant="h5" gutterBottom>
-        User Data (Formatted)
+        User Data
       </Typography>
       <Box mb={2}>
         <Button onClick={() => { focusEditor(); toggleInlineStyle("BOLD"); }} variant="contained" sx={{ m: 1 }}>
